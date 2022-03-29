@@ -23,7 +23,7 @@ app.get('/mithuntechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  Devops TrainingTech. Please Contact +918660509919 for more information or send an email to devopstrainingtech@gmail.com <center></h2>" );
     response.end();
     
   })
@@ -42,12 +42,12 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'Mithun Reddy L'});
+        //res.json({'name': 'Vithal T'});
         res.send({
-		'name': 'Mithun Technologies',
+		'name': 'Devops TrainingTech',
 		'technology': 'DevOps',
-		'contact' : '9980923226',
-		'email': 'devopstrainingblr@gmail.com'
+		'contact' : '8660509919',
+		'email': 'devopstrainingtech@gmail.com'
 	            });
         
         });
@@ -70,12 +70,12 @@ app.get("/status-code-500", function(req, res) {
 
 app.get('/redirect', function(req, res) {
     //Send status 300
-        res.redirect('http://mithuntechnologies.com');
+        res.redirect('http://devopstrainingtech.com');
     });
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/devopstrainingtech");
       })
     
 
